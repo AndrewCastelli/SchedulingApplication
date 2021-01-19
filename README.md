@@ -19,7 +19,7 @@ How to Run
         Note: This application connects to an SQL Database Server NO LONGER AVAILABLE
               Credentials were removed from src/DataAccess/DataDriver.java.
               To be able to connect your Database Add the following to - DataDriver.java:
-              Database Name: 
-              User Name:
-              Password:
-              Full URL:
+              - Database Name 
+              - User Name
+              - Password
+              - Full URL
