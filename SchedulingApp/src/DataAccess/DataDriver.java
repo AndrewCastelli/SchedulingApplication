@@ -10,9 +10,9 @@ import java.sql.SQLException;
 public class DataDriver {
     private static Connection conn = null;
     private static final String driver = "com.mysql.cj.jdbc.Driver";
-    private static final String compositeURL = "jdbc:mysql://wgudb.ucertify.com/WJ08dcP";
-    private static final String userName = "U08dcP";
-    private static final String passWord = "53689258984";
+    private static final String compositeURL = "jdbc:mysql://REPLACE WITH URL/REPLACE WITH DB NAME"; // REPLACE THESE STARS WITH YOUR OWN DATABASE URL & Name
+    private static final String userName = "REPLACE WITH YOUR DB SERVER USERNAME";
+    private static final String passWord = "REPLACE WITH YOUR DB SERVER PASSWORD";
 
     /**
      * Starts connection with SQL database
