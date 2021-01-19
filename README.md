@@ -1,4 +1,6 @@
-Database Scheduling Application - Version 3.0 - January 16th, 2021
+Database Scheduling Application - Version 3.0
+=
+January 16th, 2021
 =
 GUI JavaFX Application to view, change, organize, and edit and SQL Database of Appointments, Customers, Contacts, Users, and Schedules.
 
