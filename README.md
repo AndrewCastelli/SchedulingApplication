@@ -15,10 +15,11 @@ How to Run
 - Navigate to src -> DataAccess -> Main.java
 - “Run Main.java”
 - Login to GUI with Username: test   Password: test
-Note: This application connects to an SQL Database Server NO LONGER AVAILABLE (credentials removed from file: src/DataAccess/DataDriver.java)
-      To be able to connect to your own SQL Database you will need to add the following information to DataDriver.java:
-      MySQL Server & Database
-      Database Name: 
-      User Name:
-      Password:
-      Full URL:
+
+        Note: This application connects to an SQL Database Server NO LONGER AVAILABLE (credentials removed from file: src/DataAccess/DataDriver.java)
+        To be able to connect to your own SQL Database you will need to add the following information to DataDriver.java:
+        MySQL Server & Database
+        Database Name: 
+        User Name:
+        Password:
+        Full URL:
