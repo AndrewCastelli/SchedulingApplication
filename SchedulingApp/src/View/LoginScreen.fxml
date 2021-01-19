@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="388.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController.LoginScreenController">
+   <Label fx:id="loginLabel" alignment="TOP_LEFT" layoutX="48.0" layoutY="41.0" prefHeight="26.0" prefWidth="99.0" text="User Login">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Label fx:id="userLocationLabel" layoutX="118.0" layoutY="97.0" prefHeight="19.0" prefWidth="164.0" text="Detected User Location: ">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+   <Label fx:id="locationLabel" layoutX="280.0" layoutY="97.0" prefHeight="19.0" prefWidth="108.0">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+   <TextField fx:id="userNameField" layoutX="112.0" layoutY="147.0" prefHeight="27.0" prefWidth="240.0" promptText="Enter User Name" />
+   <PasswordField fx:id="passwordField" layoutX="112.0" layoutY="201.0" prefHeight="27.0" prefWidth="240.0" promptText="Enter Password">
+      <font>
+         <Font size="10.0" />
+      </font></PasswordField>
+   <Button fx:id="loginButton" layoutX="160.0" layoutY="256.0" mnemonicParsing="false" onAction="#userLogin" prefHeight="27.0" prefWidth="70.0" text="Submit" />
+   <Button fx:id="exitButton" layoutX="242.0" layoutY="256.0" mnemonicParsing="false" onAction="#exit" prefHeight="27.0" prefWidth="70.0" text="Exit" />
+</AnchorPane>

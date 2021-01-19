@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="569.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController.CustomerScreenController">
+    <Label layoutX="83.0" layoutY="47.0" prefHeight="27.0" prefWidth="167.0" text="Customer Records">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+    <Button layoutX="211.0" layoutY="429.0" mnemonicParsing="false" onAction="#addCustomer" prefHeight="27.0" prefWidth="189.0" text="Add New Customer" />
+    <Button layoutX="634.0" layoutY="429.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="27.0" prefWidth="189.0" text="Delete Selected Customer" />
+    <Button layoutX="423.0" layoutY="429.0" mnemonicParsing="false" onAction="#updateCustomer" prefHeight="27.0" prefWidth="189.0" text="Update Selected Customer" />
+    <Button layoutX="721.0" layoutY="502.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="84.0" text="Back" />
+    <Button layoutX="858.0" layoutY="502.0" mnemonicParsing="false" onAction="#exit" prefHeight="27.0" prefWidth="84.0" text="Exit" />
+    <TableView fx:id="customersTable" layoutX="22.0" layoutY="89.0" prefHeight="325.0" prefWidth="956.0">
+        <columns>
+            <TableColumn fx:id="customerIdCol" minWidth="-1.0" text="Customer ID" />
+            <TableColumn fx:id="nameCol" minWidth="-1.0" prefWidth="100.0" text="Name" />
+            <TableColumn fx:id="addressCol" minWidth="-1.0" prefWidth="120.0" text="Address" />
+            <TableColumn fx:id="postalCodeCol" minWidth="-1.0" prefWidth="85.0" text="Postal Code" />
+            <TableColumn fx:id="phoneCol" minWidth="-1.0" prefWidth="90.0" text="Phone" />
+            <TableColumn fx:id="createDateCol" minWidth="-1.0" prefWidth="100.0" text="Created Date" />
+            <TableColumn fx:id="createdByCol" minWidth="-1.0" prefWidth="100.0" text="Created By" />
+            <TableColumn fx:id="lastUpdatedCol" minWidth="-1.0" prefWidth="100.0" text="Last Update" />
+            <TableColumn fx:id="lastUpdatedByCol" minWidth="-1.0" prefWidth="100.0" text="Last Updated By" />
+            <TableColumn fx:id="divisionIdCol" minWidth="-1.0" text="Division ID" />
+        </columns>
+    </TableView>
+</AnchorPane>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="950.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController.UpdateAppointmentController">
+    <Label layoutX="41.0" layoutY="27.0" prefHeight="27.0" prefWidth="151.0" text="Edit Appointment">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="75.0" text="Appointment ID">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="125.0" text="Title">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="174.0" text="Description">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="223.0" text="Location">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="275.0" text="Type">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="330.0" text="Start">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="385.0" text="End">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="440.0" text="Create Date">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="495.0" text="Created By">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="548.0" text="Last Updated">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="601.0" text="Last Updated By">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="649.0" text="Customer ID">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="696.0" text="User ID">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="750.0" text="Contact Name">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="105.0" layoutY="805.0" text="Contact ID">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <TextField fx:id="appointmentIdField" disable="true" layoutX="219.0" layoutY="70.0" prefHeight="27.0" prefWidth="184.0" promptText="Auto-Generated">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="titleField" layoutX="219.0" layoutY="120.0" prefHeight="27.0" prefWidth="184.0" promptText="Appointment Title">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="descriptionField" layoutX="219.0" layoutY="170.0" prefHeight="27.0" prefWidth="184.0" promptText="Description">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="locationField" layoutX="219.0" layoutY="218.0" prefHeight="27.0" prefWidth="184.0" promptText="Location">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="typeField" layoutX="217.0" layoutY="271.0" prefHeight="27.0" prefWidth="184.0" promptText="Type">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="startField" layoutX="217.0" layoutY="326.0" prefHeight="27.0" prefWidth="184.0" promptText=" YYYY-MM-DD  HH:MM">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="endField" layoutX="217.0" layoutY="381.0" prefHeight="27.0" prefWidth="184.0" promptText=" YYYY-MM-DD  HH:MM">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="createDateField" disable="true" layoutX="217.0" layoutY="436.0" prefHeight="27.0" prefWidth="184.0" promptText=" YYYY-MM-DD  HH:MM">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="createdByField" disable="true" layoutX="217.0" layoutY="490.0" prefHeight="27.0" prefWidth="184.0" promptText="User">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="lastUpdatedField" disable="true" layoutX="217.0" layoutY="543.0" prefHeight="27.0" prefWidth="184.0" promptText=" YYYY-MM-DD  HH:MM">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="lastUpdatedByField" disable="true" layoutX="217.0" layoutY="597.0" prefHeight="27.0" prefWidth="184.0" promptText="User">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="customerIdField" layoutX="217.0" layoutY="645.0" prefHeight="27.0" prefWidth="184.0" promptText="Customer ID">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="userIdField" layoutX="217.0" layoutY="692.0" prefHeight="27.0" prefWidth="184.0" promptText="User ID">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="contactIdField" disable="true" layoutX="217.0" layoutY="801.0" prefHeight="27.0" prefWidth="184.0" promptText="Contact ID">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </TextField>
+    <ComboBox fx:id="contactSelection" layoutX="217.0" layoutY="746.0" prefHeight="27.0" prefWidth="184.0" promptText="Select Contact" />
+    <Button layoutX="171.0" layoutY="853.0" mnemonicParsing="false" onAction="#updateAppointment" prefHeight="27.0" prefWidth="71.0" text="Submit" />
+    <Button layoutX="259.0" layoutY="853.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="71.0" text="Cancel" />
+</AnchorPane>

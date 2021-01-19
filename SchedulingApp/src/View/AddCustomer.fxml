@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="705.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController.AddCustomerController">
+   <Label layoutX="55.0" layoutY="29.0" prefHeight="18.0" prefWidth="122.0" text="Add Customer">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="93.0" text="Customer ID">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="143.0" text="Customer Name">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="193.0" text="Address">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="243.0" text="Postal Code">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="293.0" text="Phone">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="105.0" layoutY="582.0" text="Division ID">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="105.0" layoutY="536.0" text="Country">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="393.0" text="Created By">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="343.0" text="Create Date">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="443.0" text="Last Updated">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="493.0" text="Last Updated By">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <TextField fx:id="customerIdField" disable="true" layoutX="221.0" layoutY="88.0" prefHeight="27.0" prefWidth="175.0" promptText="Auto-Generated" />
+   <TextField fx:id="nameField" layoutX="221.0" layoutY="138.0" prefHeight="27.0" prefWidth="175.0" promptText="Name" />
+   <TextField fx:id="addressField" layoutX="221.0" layoutY="188.0" prefHeight="27.0" prefWidth="175.0" promptText="Address" />
+   <TextField fx:id="postalCodeField" layoutX="221.0" layoutY="238.0" prefHeight="27.0" prefWidth="175.0" promptText="Postal Code" />
+   <TextField fx:id="phoneField" layoutX="221.0" layoutY="288.0" prefHeight="27.0" prefWidth="175.0" promptText="Phone" />
+   <TextField fx:id="createdByField" layoutX="221.0" layoutY="388.0" prefHeight="27.0" prefWidth="175.0" promptText="User" />
+   <TextField fx:id="createDateField" layoutX="221.0" layoutY="338.0" prefHeight="27.0" prefWidth="175.0" promptText=" YYYY-MM-DD  HH:MM"  />
+   <TextField fx:id="lastUpdatedField" layoutX="221.0" layoutY="438.0" prefHeight="27.0" prefWidth="175.0" promptText=" YYYY-MM-DD  HH:MM"  />
+   <TextField fx:id="lastUpdatedByField" layoutX="221.0" layoutY="488.0" prefHeight="27.0" prefWidth="175.0" promptText="User" />
+   <ComboBox fx:id="divisionSelection" layoutX="220.0" layoutY="577.0" prefHeight="27.0" prefWidth="175.0" promptText="Select Division ID" />
+   <!--   <ComboBox fx:id="divisionSelection" layoutX="220.0" layoutY="577.0" onAction="#updateDivision" onContextMenuRequested="#filterDivisionSelection" prefHeight="27.0" prefWidth="175.0" promptText="Select Division ID" />-->
+   <ComboBox fx:id="countrySelection" layoutX="220.0" layoutY="531.0" onAction="#filterDivisionSelection" prefHeight="27.0" prefWidth="175.0" promptText="Select Country" />
+   <Button layoutX="153.0" layoutY="622.0" mnemonicParsing="false" onAction="#addCustomer" prefHeight="25.0" prefWidth="75.0" text="Submit" />
+   <Button layoutX="261.0" layoutY="622.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="75.0" text="Cancel" />
+</AnchorPane>

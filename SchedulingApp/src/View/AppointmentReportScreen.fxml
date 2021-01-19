@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="639.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController.AppointmentReportController">
+    <Label layoutX="29.0" layoutY="14.0" prefHeight="26.0" prefWidth="228.0" text="Total Appointments Report">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+   <Label layoutX="92.0" layoutY="40.0" text="Total Count: " />
+   <Label fx:id="totalCountField" layoutX="167.0" layoutY="40.0" prefHeight="17.0" prefWidth="26.0" text="0" />
+   <Label layoutX="25.0" layoutY="70.0" text="Month">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="114.0" layoutY="70.0" text="Count">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="205.0" layoutY="70.0" text="Type">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Label>
+    <Label layoutX="25.0" layoutY="111.0" text="January">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="24.0" layoutY="149.0" text="February">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="31.0" layoutY="190.0" text="March">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="36.0" layoutY="229.0" text="April">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="36.0" layoutY="267.0" text="May">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="35.0" layoutY="306.0" text="June">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="37.0" layoutY="347.0" text="July">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="29.0" layoutY="387.0" text="August">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="22.0" layoutY="426.0" text="September">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="30.0" layoutY="468.0" text="October">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="24.0" layoutY="508.0" text="November">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="23.0" layoutY="547.0" text="December">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="172.0" layoutY="111.0" text="Planning Sessions">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Label layoutX="190.0" layoutY="191.0" text="De-Briefing">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="januaryCount" layoutX="131.0" layoutY="110.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="februaryCount" layoutX="132.0" layoutY="147.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="marchCount" layoutX="132.0" layoutY="188.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="aprilCount" layoutX="132.0" layoutY="227.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="mayCount" layoutX="132.0" layoutY="265.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="juneCount" layoutX="132.0" layoutY="308.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="julyCount" layoutX="132.0" layoutY="345.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="augustCount" layoutX="132.0" layoutY="385.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="septemberCount" layoutX="132.0" layoutY="424.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="octoberCount" layoutX="131.0" layoutY="466.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="novemberCount" layoutX="132.0" layoutY="506.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="decemberCount" layoutX="132.0" layoutY="545.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="planningCount" layoutX="223.0" layoutY="139.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+   <Label fx:id="briefingCount" layoutX="223.0" layoutY="219.0" prefHeight="19.0" prefWidth="26.0" text="0">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <Button layoutX="58.0" layoutY="592.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="84.0" text="Back" />
+    <Button layoutX="158.0" layoutY="592.0" mnemonicParsing="false" onAction="#exit" prefHeight="27.0" prefWidth="84.0" text="Exit" />
+   <Line endX="191.79290771484375" layoutX="99.0" layoutY="103.0" startX="-101.0" />
+   <Line endX="66.99998474121094" layoutX="101.0" layoutY="140.0" startX="-101.0" />
+   <Line endX="154.99998474121094" endY="-6.5" layoutX="14.0" layoutY="187.0" startX="-14.000015258789062" startY="-6.5" />
+   <Line endX="91.79296875" endY="-110.0" layoutX="14.0" layoutY="214.0" startX="91.79295349121094" startY="360.5" />
+   <Line endX="-2.5000152587890625" endY="348.5" layoutX="171.0" layoutY="226.0" startX="-2.5" startY="-122.5" />
+   <Line endX="148.5" layoutX="143.0" layoutY="575.0" startX="-143.00001525878906" />
+   <Line endX="94.99998474121094" layoutX="74.0" layoutY="337.0" startX="-74.0" />
+   <Line endX="79.99998474121094" layoutX="88.0" layoutY="297.0" startX="-89.0" />
+   <Line endX="87.99998474121094" layoutX="81.0" layoutY="259.0" startX="-81.0" />
+   <Line endX="84.99998474121094" layoutX="84.0" layoutY="220.0" startX="-84.0" />
+   <Line endX="87.99998474121094" layoutX="81.0" layoutY="377.0" startX="-81.0" />
+   <Line endX="78.0" layoutX="91.0" layoutY="416.0" startX="-91.0" />
+   <Line endX="103.0" layoutX="65.0" layoutY="456.0" startX="-65.0" />
+   <Line endX="88.0" layoutX="81.0" layoutY="496.0" startX="-81.0" />
+   <Line endX="88.0" layoutX="81.0" layoutY="536.0" startX="-81.0" />
+</AnchorPane>

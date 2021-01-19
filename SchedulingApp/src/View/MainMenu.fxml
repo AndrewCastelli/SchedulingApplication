@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController.MainMenuController">
+   <BorderPane layoutX="34.0" layoutY="13.0" prefHeight="325.0" prefWidth="258.0" style="-fx-border-color: Black; -fx-border-radius: 10; -fx-background-color: LightGray; -fx-background-radius: 10;" />
+   <Label layoutX="87.0" layoutY="22.0" prefHeight="23.0" prefWidth="152.0" text="Scheduling Menu">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Button layoutX="78.0" layoutY="146.0" mnemonicParsing="false" onAction="#displayReports" prefHeight="27.0" prefWidth="171.0" text="Appointment Report">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button layoutX="77.0" layoutY="227.0" mnemonicParsing="false" onAction="#displayContactSchedules" prefHeight="27.0" prefWidth="171.0" text="Contact Schedules">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button layoutX="78.0" layoutY="185.0" mnemonicParsing="false" onAction="#displayCustomerSchedules" prefHeight="28.0" prefWidth="171.0" text="Customer Schedules">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button layoutX="168.0" layoutY="275.0" mnemonicParsing="false" onAction="#exit" prefHeight="28.0" prefWidth="63.0" text="Exit">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button layoutX="115.0" layoutY="106.0" mnemonicParsing="false" onAction="#displayCustomers" prefHeight="18.0" prefWidth="103.0" text="Customers">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button layoutX="115.0" layoutY="68.0" mnemonicParsing="false" onAction="#displayAppointments" prefHeight="26.0" prefWidth="103.0" text="Appointments">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button layoutX="96.0" layoutY="275.0" mnemonicParsing="false" onAction="#displayLogin" prefHeight="28.0" prefWidth="63.0" text="Back">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+</AnchorPane>
