@@ -1,5 +1,7 @@
 Database Scheduling Application - Version 3.0 - January 16th, 2021
 =
+GUI JavaFX Application to organize a set of Appointments, Customers, Contacts, Users, and Schedules.
+
     Created By: Andrew Castelli
     Created for: C195 Software II - Advanced Java Concepts
 Created Using:
